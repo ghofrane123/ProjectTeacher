@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TeacherAtHome1</string>
+    <string name="title_activity_main3">jjjjjjjjjjj</string>
+    <string name="Role" translatable="false">choisir votre role</string>
+    <string name="action_settings">parametre</string>
+    <string name="btn_login">connectre</string>
+    <string name="btn_link_to_login">deja enregistree ! conncte toi</string>
+    <string name="btn_link_to_register">t\'es pas un membre ?creer votre compte</string>
+    <string name="btn_logout">deconncter</string>
+    <string name="btn_register">enregistrer</string>
+    <string name="country_prompt">choisir votre pays</string>
+    <string name="cour_prof">choisir votre cours</string>
+    <string name="name1">nom</string>
+    <string name="name">prenom</string>
+    <string name="niveau_etude">votre niveau</string>
+    <string name="prix">prix</string>
+    <string name="search">chercher</string>
+    <string name="welcome">bienvenue</string>
+    <string name="valid_on">creer a :</string>
+    <string name="x">x</string>
+</resources>

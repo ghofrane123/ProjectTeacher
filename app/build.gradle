@@ -1,0 +1,72 @@
+plugins {
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin' version '0.7.0'
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.2"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "wolfsoft.routes"
+        minSdkVersion 15
+        targetSdkVersion 25
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [onesignal_app_id               : "21128ac1-8b35-454e-99c7-378a5073d951",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "REMOTE"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // add this in  dependencie
+
+
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.google.code.gson:gson:2.5'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.firebase:firebase-auth:10.0.1'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'com.google.android.gms:play-services-maps:10.0.1'
+    compile 'com.google.android.gms:play-services-location:10.0.1'
+    compile 'com.google.android.gms:play-services-places:10.0.1'
+    compile 'com.google.firebase:firebase-storage:10.0.1'
+    compile 'com.wdullaer:materialdatetimepicker:2.3.0'
+    compile 'com.google.firebase:firebase-database:10.0.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.getbase:floatingactionbutton:1.9.0'
+    compile 'com.bignerdranch.android:recyclerview-multiselect:+'
+    compile 'com.wrapp.floatlabelededittext:library:0.0.6'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.google.maps.android:android-maps-utils:0.4.+'
+    compile 'com.github.chenupt.android:springindicator:1.0.2@aar'
+    testCompile 'junit:junit:4.12'
+}
+
+apply plugin: 'com.google.gms.google-services'

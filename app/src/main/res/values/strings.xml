@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">TeacherAtHome2</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <integer name="swing_anim_time">750</integer>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="title_activity_main3">Main3Activity111</string>
+    <string name="description">Description</string>
+    <string name="prix">Price:</string>
+    <string name="propellant">Propellant</string>
+    <string name="textview">TextView</string>
+    <string name="dt">dt</string>
+    <string name="valid_on">Created at :</string>
+    <string name="x">x</string>
+    <string name="forgot_password">creer votre compte?</string>
+    <string name="password">mot de passe</string>
+    <string name="username">Nom</string>
+    <string name="signin">Connecter</string>
+    <string name="creer">creer un nouveau compt</string>
+    <string name="radio_student">student</string>
+    <string name="radio_enseigant">enseignat</string>
+    <string name="red">enseignat</string>
+    <string name="blue">enseignat</string>
+    <string name="green">enseignat</string>
+
+
+    <string name="name1">Name</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="matiere_array">
+        <item>Math</item>
+        <item>Physics</item>
+        <item>science</item>
+        <item>philosophy</item>
+        <item>frensh</item>
+        <item>english</item>
+        <item>sport</item>
+        <item>informatique</item>
+    </string-array>
+
+    <string name="Role">Choose role</string>
+
+    <string-array name="user_Role">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+
+
+    <string name="cour_prof">Choose a cour</string>
+
+    <string-array name="matiere">
+        <item>cour a etudier</item>
+        <item>Math</item>
+        <item>Physics</item>
+        <item>science</item>
+        <item>philosophy</item>
+        <item>frensh</item>
+        <item>english</item>
+        <item>sport</item>
+        <item>informatique</item>
+    </string-array>
+
+    <string name="niveau_etude">Choose a niveau</string>
+
+    <string-array name="niveau">
+        <item>cour a etudier</item>
+        <item>Math</item>
+        <item>Physics</item>
+        <item>science</item>
+        <item>philosophy</item>
+        <item>frensh</item>
+        <item>english</item>
+        <item>sport</item>
+        <item>informatique</item>
+    </string-array>
+    <string name="ghofrane">gh</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="etudiant">Choose a country</string>
+
+    <string-array name="etudiants">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="heure">Choose a country</string>
+
+    <string-array name="heures">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+
+    <string name="competence">Choose a country</string>
+    <string name="search_location_here">Search Location Here</string>
+    <string name="phone_number">phone number</string>
+
+    <string-array name="niveau_etudes">
+        <item>Professeur des écoles</item>
+        <item>Professeur certifié</item>
+        <item>Professeur agrégé</item>
+        <item>Professeur et docteur</item>
+    </string-array>
+
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">Chek me you have cours</string>
+    <string name="off">Off</string>
+
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+</resources>

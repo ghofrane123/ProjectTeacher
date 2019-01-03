@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "866454542295",
+    "firebase_url": "https://code-319c9.firebaseio.com",
+    "project_id": "code-319c9",
+    "storage_bucket": "code-319c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866454542295:android:18861fa3afb0a803",
+        "android_client_info": {
+          "package_name": "wolfsoft.routes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866454542295-ckrqjk5ofaoq6u1mmf32tcq9047mrqf2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wolfsoft.routes",
+            "certificate_hash": "4a89c7c1aa73e65958227ed25ea92d39e69e0fa5"
+          }
+        },
+        {
+          "client_id": "866454542295-f1n3epdquvcmhmnqgtr0sq68j9bdd77i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzZBLse3XWO-XQCX7IWhYxlhx0pEaS-Jw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866454542295-f1n3epdquvcmhmnqgtr0sq68j9bdd77i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

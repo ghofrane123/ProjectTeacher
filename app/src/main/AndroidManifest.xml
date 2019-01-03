@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="wolfsoft.routes">
+
+    <uses-sdk tools:overrideLibrary="com.simplify.android.sdk,com.paypal.android.sdk.payments,com.paypal.android.sdk.payments,com.onesignal,io.card.payment" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".App.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/notif"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".loginandregister.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginandregister.SecondActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="com.onesignal.NotificationAccentColor.DEFAULT"
+                android:value="FF00FF00" />
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            <meta-data
+                android:name="com.onesignal.NotificationOpened.DEFAULT"
+                android:value="DISABLE" />
+        </activity>
+        <activity android:name=".DeleteAndEdit" />
+        <activity android:name=".Test_student" />
+        <activity android:name=".Comment" />
+        <activity android:name=".Reclamation" />
+        <activity android:name=".Profile" />
+        <activity android:name=".ViewPagerTest" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDwKJ3-tHgCA0PnYyKWY4uGCI-6Tk6ng3E" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Notification.ResponseNotification" />
+        <activity android:name=".Cour.Cour_Add" />
+        <activity android:name=".Student" />
+        <activity android:name=".ReminderActicity.AddReminderActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ReminderActicity.MainReminder" />
+        </activity>
+        <activity android:name=".ReminderActicity.MainReminder" />
+
+        <provider
+            android:name=".data.AlarmReminderProvider"
+            android:authorities="wolfsoft.routes"
+            android:exported="true" />
+
+        <service
+            android:name=".reminder.ReminderAlarmService"
+            android:exported="false" />
+
+        <activity android:name=".FetchReclamation" />
+        <activity android:name=".Historique" />
+        <activity android:name=".splach.Splashscreen"></activity>
+    </application>
+
+</manifest>
